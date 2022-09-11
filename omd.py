@@ -8,7 +8,6 @@ def step2_no_umbrella():
         'Утки маляры ходят в шапках, им зонты не нужны'
     )
 
-
 def step1():
     print(
         'Утка-маляр 🦆 решила выпить зайти в бар. '
@@ -23,7 +22,6 @@ def step1():
     if options[option]:
         return step2_umbrella()
     return step2_no_umbrella()
-
 
 if __name__ == '__main__':
     step1()
